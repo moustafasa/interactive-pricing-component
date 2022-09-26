@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form action="">
+      <header>
+        <h1>simple, traffic based pricing</h1>
+        <p class="info">
+          Sign-up for our 30-day trial. No credit card required
+        </p>
+      </header>
+      <main>
+        <div class="data">
+          <div class="measures">
+            <div class="views"><span class="value">100k</span> pageviews</div>
+            <div class="slider-cont">
+              <div class="slider" style="width: 50%">
+                <span class="thumb"></span>
+              </div>
+              <!-- <input type="range" class="slider" min="0" max="100" step="20" /> -->
+            </div>
+            <div class="price"><span class="value">$16.00</span> / month</div>
+          </div>
+          <div class="time" data-disc="-25%">
+            <label class="label">monthly billing</label>
+            <div class="check"></div>
+            <label class="yearly-label label">yearly billing</label>
+          </div>
+        </div>
+        <footer>
+          <ul class="features">
+            <li>unlimited websites</li>
+            <li>100% data ownership</li>
+            <li>email reports</li>
+          </ul>
+          <button class="start">start my trial</button>
+        </footer>
+      </main>
+    </form>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">moustafa</a>.
+    </div>
+    <script src="./js/main.js" async></script>
+  </body>
+</html>
